@@ -19,6 +19,18 @@ class JavaBSD {
 	//main driver
 	public static void main(String[] args) {
 		//local Declarations
+		List<Integers> listA = new ArrayList<Integers>();
+		List<Integers> listB = new ArrayList<Integers>();
+
+		//intialize lists with values
+
+		//print initial values
+
+		//add up elements and obtain bits
+
+		//get difference between bits (take abs if needed)
+
+		//print final results
 	}
 
 	//function definitions below	
