@@ -33,5 +33,10 @@ class JavaBSD {
 		//print final results
 	}
 
-	//function definitions below	
+	//initLists will initialize lists with random simple values (0-15)
+	public static List<Integer> initList(List<Integer> myList) {
+		//local declarations
+		int i = 0;
+		Random rand = new Random();
+	}
 }
