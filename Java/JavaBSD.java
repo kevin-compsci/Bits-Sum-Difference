@@ -41,5 +41,11 @@ class JavaBSD {
 		Random rand = new Random();
 
 		//loop through arrayList
+		while(i < sizeLimit) {
+			myList.add(rand.nextInt(15));
+			i++;
+		}
+
+		return myList; //return resulting list
 	}
 }
