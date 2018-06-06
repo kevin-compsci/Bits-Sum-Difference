@@ -23,6 +23,8 @@ class JavaBSD {
 		List<Integers> listB = new ArrayList<Integers>();
 		int sizeLimitA = 15, sizeLimitB = 10; //set size limits for lists here
 
+		//TODO: implement idea below//
+
 		//intialize lists with values
 
 		//print initial values
@@ -48,4 +50,6 @@ class JavaBSD {
 
 		return myList; //return resulting list
 	}
+
+	//TODO:
 }
