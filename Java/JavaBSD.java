@@ -21,6 +21,7 @@ class JavaBSD {
 		//local Declarations
 		List<Integers> listA = new ArrayList<Integers>();
 		List<Integers> listB = new ArrayList<Integers>();
+		int sizeLimitA = 15, sizeLimitB = 10; //set size limits for lists here
 
 		//intialize lists with values
 
@@ -34,9 +35,11 @@ class JavaBSD {
 	}
 
 	//initLists will initialize lists with random simple values (0-15)
-	public static List<Integer> initList(List<Integer> myList) {
+	public static List<Integer> initList(List<Integer> myList, int sizeLimit) {
 		//local declarations
 		int i = 0;
 		Random rand = new Random();
+
+		//loop through arrayList
 	}
 }
